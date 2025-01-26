@@ -1,0 +1,11 @@
+{
+    "name": "COMP423 Go Tutorial",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["golang.go"]
+      }
+    },
+    "postCreateCommand": "go mod init github.com/svytran/comp423-go-tutorial || true"
+  }
